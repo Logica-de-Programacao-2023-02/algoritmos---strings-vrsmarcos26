@@ -19,6 +19,11 @@ func main() {
 	r = strings.ReplaceAll(r, "i", "")
 	r = strings.ReplaceAll(r, "o", "")
 	r = strings.ReplaceAll(r, "u", "")
+	r = strings.ReplaceAll(r, "A", "")
+	r = strings.ReplaceAll(r, "E", "")
+	r = strings.ReplaceAll(r, "I", "")
+	r = strings.ReplaceAll(r, "O", "")
+	r = strings.ReplaceAll(r, "U", "")
 
 	fmt.Print("Sua string sem vogais fica: ", r)
 }
